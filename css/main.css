@@ -383,24 +383,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  text-decoration: none;
   list-style-type: none;
 }
 
 .cases__card {
   width: 370px;
   align-items: center;
-  transition: box-shadow 250ms var(--timing-function);
-}
-.cases__card:hover, .cases__card:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.cases__card:hover .cases__overlay, .cases__card:focus .cases__overlay {
-  transform: translateY(0);
 }
 
 .cases__link {
   text-decoration: none;
+  transition: box-shadow 250ms var(--timing-function);
+}
+.cases__link:hover, .cases__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.cases__link:hover .cases__overlay, .cases__link:focus .cases__overlay {
+  transform: translateY(0);
 }
 
 .cases__overlay {
