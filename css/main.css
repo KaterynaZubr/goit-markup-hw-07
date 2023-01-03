@@ -393,6 +393,7 @@ body {
 
 .cases__link {
   text-decoration: none;
+  display: block;
   transition: box-shadow 250ms var(--timing-function);
 }
 .cases__link:hover, .cases__link:focus {
